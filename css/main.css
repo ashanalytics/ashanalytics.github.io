@@ -1,0 +1,42 @@
+:root{
+  --primary: #051C37;
+  --secondary: #F8FFE5
+}
+
+.navbar {
+  background-color: var(--primary);
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  padding-top: 0;
+  background-color: var(--primary);
+}
+
+.header-text {
+  position: relative;
+  top: 30%;
+}
+
+footer {
+  background-color: var(--primary);
+}
+
+section {
+  padding: 150px 0;
+}
+
+canvas {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  background-size: cover;
+  position: absolute;
+}
